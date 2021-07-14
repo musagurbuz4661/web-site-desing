@@ -12,7 +12,7 @@ li, a {
     
 }
 a:hover{
-    color:rgb(153, 80, 139) ;
+    color:rgb(153, 80, 139);
 }
 header{
     display:flex;
@@ -31,7 +31,7 @@ nav{
     padding: 0 10px;
 }
 span{
-    color:rgb(153, 80, 139) ;
+    color:rgb(153, 80, 139);
 }
 
 

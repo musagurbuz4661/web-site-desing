@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(153, 80, 139);
+}
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    
+}
+a:hover{
+    color:rgb(153, 80, 139) ;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    width: 100%;
+    background-color:rgb(53, 66, 74) ;
+    color: white;
+    margin-bottom: 1px;
+   }
+.header-head{
+    padding-left: 15px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+span{
+    color:rgb(153, 80, 139) ;
+}
+
+
+
+
+
+.container-main-image{
+    background-image: url(img/showcase.jpg);
+    height: 450px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+   
+}
+.main-text{  
+    text-align: center;
+    color: white;
+    
+}
+.main-text h1{
+    font-size: 50px;
+    
+}
+
+
+
+
+
+.container-subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(53, 66, 74) ; 
+    color: white;
+   
+    
+}
+.container-subscribe button{
+    background-color:rgb(232, 73, 29) ;
+    color: white;
+    height: 30px;
+    border-style: none;
+   
+    
+}
+.container-subscribe input{
+    height: 25px;
+}
+.sub-left{
+    padding-left: 15px;
+}
+.sub-right{
+    padding-right: 15px;
+}
+
+
+
+
+.container-langues{
+    display:flex;
+    flex-direction: row;
+    padding: 25px 0;
+    background-color: white;
+    justify-content: space-between;
+}
+.langues{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+footer{
+    
+    padding:25px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(53, 66, 74) ;
+    
+   
+}
+.footer-image{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.copyright {
+    height: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+   color: white;
+    
+}
+
+
+/* about  */
+
+.container-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+    padding: 15px;
+    
+
+}
+.about-us{
+    padding-right:25px ;
+    margin-right: 15px;
+    height: 500px;
+    
+}
+.about-us--p{
+    background-color:rgb(53, 66, 74) ;
+    padding:15px;
+}
+.aboutlorem{
+    
+    background-color:rgb(53, 66, 74) ;
+    padding: 15px;
+    height: 100%;
+    width: 900px;
+}
+
+/* services */
+
+.service-container{
+    display: flex;
+    flex-direction: row;
+    padding:10px 20px;
+    background-color:rgb(244, 244, 244) ;
+    
+}
+
+.left{
+    background-color:rgb(230, 230, 230) ;
+    padding:35px ;
+    margin-bottom: 4px;
+}
+.service-form{
+    display: flex;
+    background-color:rgb(53, 66, 74) ;
+    padding: 30px 30px 30px 20px; 
+    flex-direction: column;
+    height: 100%;
+    width: 350px;
+    color: white;
+    margin: 50px;
+
+
+}
+.form-item{
+    height: auto;
+    width: 320px;
+    padding: 5px;
+    margin: 5px 0;
+}
+.service-form button{
+    background-color:rgb(232, 73, 29) ;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border-style: none;
+}
